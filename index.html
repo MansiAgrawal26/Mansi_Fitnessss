@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansi's website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+    <style>
+        /* Css reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url("black.jpg");
+
+            background-repeat: no-repeat;
+            background-size: 100%;
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .left {
+            /* border: 1px solid blue; */
+            width: 150px;
+            display: inline-block;
+            position: absolute;
+            top: 17px;
+            left: 20px;
+
+    
+        }
+
+        .mid {
+            /* border: 1px solid yellow; */
+            display: block;
+        
+            top:17px;
+
+            width: 450px;
+            margin: 17px auto;
+            padding: 12px 19px;
+
+
+        }
+
+        .right {
+            /* border: 1px solid green; */
+            display: inline-block;
+            position: absolute;
+            width:200px;
+            margin:27px auto;
+            padding:3px 3px;
+            top: 3px;
+            right: 33px;
+            text-align:right;
+
+        }
+        .left img{
+            width:131px;
+            filter: invert(100%); 
+        }
+        .logovalue h3{
+            text-align:center;
+            margin-top: -5px;
+            
+        }
+    
+        #navbar a{
+            text-decoration:none;
+            color:white;
+            margin:3px 7px;
+            padding:10px 5px;
+            font-size:20px;
+            
+        }
+        #navbar a:hover{
+            color:rgb(75, 72, 72);
+           
+        }
+        .btn{
+            border-radius: 6px;
+            border:1px solid grey;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size:16px;
+        }
+.right button:hover{
+   background-color: rgb(75, 72, 72);
+   cursor:pointer;
+}
+#formTag{
+    /* border:1px solid green; */
+    margin: -71px 34px;
+    padding: 130px 159px;
+    width:500px;
+    display:block;
+    top: 50px;
+    left:10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#formTag input{
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 9px 49px;
+    margin: 7px 3px;
+    border-radius:7px;
+    font-size:17px;
+}
+.but{
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 5px 3px;
+    margin: 5px 3px;
+    width:324px;
+    border-radius: 13px;
+    background-color: grey;
+    
+}
+        
+        
+    </style>
+</head>
+
+<body>
+    <header class="header" id="container">
+        <!-- for logo -->
+        <div class="left">
+            <img src="120324520-barbel-dumbbell-gym-icon-logo-template-gym-badge-fitness-logo-design.jpg" />
+            <div class="logovalue">
+            <h3>Mansi Fitness</h3>
+        </div>
+        </div>
+        <!-- for navigation
+         -->
+        <div class="mid">
+            <nav id="navbar">
+            <a href=""  class="">Home</a>
+            <a href="" class="">About us</a>
+            <a href="" class="">Fitness calculator</a>
+            <a href="" class="">Blog</a>
+        </nav>
+        </div>
+        <!-- for some buttons -->
+        <div class="right">
+            <button class="btn">Contact us</button>
+        </div>
+        <div id="formTag">
+        <form>
+            <div>
+                <h2>Join the best gym of raipur now...</h2>
+            </div>
+            <div>
+            
+                <input type="text" name="name" placeholder="Enter your Name">
+                </div>
+                <div>
+                <input type="datetime" name="age" placeholder="Enter your Age">
+            </div>
+            <div>
+                <input type="text" name="gender" placeholder="Enter your Gender">
+            </div>
+            <div>
+                <input type="text" name="locality" placeholder="Enter your Locality">
+            </div>
+            <div>
+                <button class="but">Submit</button>
+            </div>
+            </form>
+        </div>
+
+
+    </header>
+
+</body>
+
+</html>
